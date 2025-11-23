@@ -17,4 +17,5 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task1.V6.Test
             double wait = -389102.25;
             Assert.AreEqual(wait, res);
         }
+    }
 }
