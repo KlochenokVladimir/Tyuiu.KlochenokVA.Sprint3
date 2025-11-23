@@ -8,7 +8,7 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task0.V20
         {
             DataService ds = new DataService();
 
-
+             
             Console.Title = "Спринт #3 | Выполнил: Клоченок В. А. | ИСПб-25-1";
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* Спринт #3                                                              *");
