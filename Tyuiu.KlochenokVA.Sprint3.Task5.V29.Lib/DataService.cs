@@ -11,7 +11,7 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task5.V29.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    sumSeries = sumSeries + (Math.Pow(x, k) + Math.Sin(k));
+                    sumSeries = sumSeries + (Math.Sin(i) / (k + Math.Pow(x, k)));
                 }
             }
             return Math.Round(sumSeries, 3);
