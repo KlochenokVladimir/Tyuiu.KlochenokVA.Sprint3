@@ -15,7 +15,7 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task7.V9.Lib
             {
                 if ((Math.Cos(x) + x) == 0)
                 {
-                    y = 0; // При делении на ноль присваиваем 0
+                    y = 0;
                 }
                 else
                 {
