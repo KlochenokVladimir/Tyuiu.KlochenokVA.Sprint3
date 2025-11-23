@@ -1,0 +1,68 @@
+
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task0.V20", "Tyuiu.KlochenokVA.Sprint3.Task0.V20\Tyuiu.KlochenokVA.Sprint3.Task0.V20.csproj", "{A1234567-B123-4567-8901-123456789ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task0.V20.Lib", "Tyuiu.KlochenokVA.Sprint3.Task0.V20.Lib\Tyuiu.KlochenokVA.Sprint3.Task0.V20.Lib.csproj", "{B1234567-C123-4567-8901-123456789BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task0.V20.Test", "Tyuiu.KlochenokVA.Sprint3.Task0.V20.Test\Tyuiu.KlochenokVA.Sprint3.Task0.V20.Test.csproj", "{C1234567-D123-4567-8901-123456789CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task1.V6", "Tyuiu.KlochenokVA.Sprint3.Task1.V6\Tyuiu.KlochenokVA.Sprint3.Task1.V6.csproj", "{D1234567-E123-4567-8901-123456789DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task1.V6.Lib", "Tyuiu.KlochenokVA.Sprint3.Task1.V6.Lib\Tyuiu.KlochenokVA.Sprint3.Task1.V6.Lib.csproj", "{E1234567-F123-4567-8901-123456789EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task1.V6.Test", "Tyuiu.KlochenokVA.Sprint3.Task1.V6.Test\Tyuiu.KlochenokVA.Sprint3.Task1.V6.Test.csproj", "{F1234567-A123-4567-8901-123456789FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task2.V22", "Tyuiu.KlochenokVA.Sprint3.Task2.V22\Tyuiu.KlochenokVA.Sprint3.Task2.V22.csproj", "{11234567-2123-4567-8901-123456789123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task2.V22.Lib", "Tyuiu.KlochenokVA.Sprint3.Task2.V22.Lib\Tyuiu.KlochenokVA.Sprint3.Task2.V22.Lib.csproj", "{21234567-3123-4567-8901-123456789234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KlochenokVA.Sprint3.Task2.V22.Test", "Tyuiu.KlochenokVA.Sprint3.Task2.V22.Test\Tyuiu.KlochenokVA.Sprint3.Task2.V22.Test.csproj", "{31234567-4123-4567-8901-123456789345}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1234567-B123-4567-8901-123456789ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1234567-B123-4567-8901-123456789ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1234567-B123-4567-8901-123456789ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1234567-B123-4567-8901-123456789ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1234567-C123-4567-8901-123456789BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1234567-C123-4567-8901-123456789BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1234567-C123-4567-8901-123456789BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1234567-C123-4567-8901-123456789BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1234567-D123-4567-8901-123456789CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1234567-D123-4567-8901-123456789CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1234567-D123-4567-8901-123456789CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1234567-D123-4567-8901-123456789CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1234567-E123-4567-8901-123456789DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1234567-E123-4567-8901-123456789DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1234567-E123-4567-8901-123456789DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1234567-E123-4567-8901-123456789DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1234567-F123-4567-8901-123456789EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1234567-F123-4567-8901-123456789EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1234567-F123-4567-8901-123456789EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1234567-F123-4567-8901-123456789EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1234567-A123-4567-8901-123456789FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1234567-A123-4567-8901-123456789FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1234567-A123-4567-8901-123456789FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1234567-A123-4567-8901-123456789FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11234567-2123-4567-8901-123456789123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11234567-2123-4567-8901-123456789123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11234567-2123-4567-8901-123456789123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11234567-2123-4567-8901-123456789123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21234567-3123-4567-8901-123456789234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21234567-3123-4567-8901-123456789234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21234567-3123-4567-8901-123456789234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21234567-3123-4567-8901-123456789234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31234567-4123-4567-8901-123456789345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31234567-4123-4567-8901-123456789345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31234567-4123-4567-8901-123456789345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31234567-4123-4567-8901-123456789345}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
