@@ -25,27 +25,23 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task7.V9
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("**************************************************************************");
 
-            int startValue = -5;
-            int stopValue = 5;
-
-            Console.WriteLine("Старт шага = " + startValue);
-            Console.WriteLine("Конец шага = " + stopValue);
-
-            Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
-            Console.WriteLine("**************************************************************************");
-
-            string strLine;
-
+            int startValue, stopValue;
+            Console.WriteLine("Введите начальное значение : ");
+            startValue = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите конечное значение : ");
+            stopValue = Convert.ToInt32(Console.ReadLine());
+            int len = ds.GetMassFunction(startValue, stopValue).Length;
+            double[] array;
+            array = new double[len];
+            array = ds.GetMassFunction(startValue, stopValue);
+            Console.WriteLine("* Результат:                                                                  *");
+            Console.WriteLine("*******************************************************************************");
             Console.WriteLine("+----------+----------+");
-            Console.WriteLine("|    X     |   f(x)   |");
+            Console.WriteLine("|    x     |    f(x)  |");
             Console.WriteLine("+----------+----------+");
-
-            double[] valueArray = ds.GetMassFunction(startValue, stopValue);
-            for (int i = 0; i <= stopValue - startValue; i++)
+            for (int i = 0; i <= len - 1; i++)
             {
-                strLine = String.Format("|{0,5:d}     | {1, 5:f2}    |", startValue, valueArray[i]);
-                Console.WriteLine(strLine);
+                Console.WriteLine("|{0, 5:d}   | {1, 5:f2}   |", startValue, array[i]);
                 startValue++;
             }
             Console.WriteLine("+----------+----------+");

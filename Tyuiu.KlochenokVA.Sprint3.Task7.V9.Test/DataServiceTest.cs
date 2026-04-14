@@ -6,33 +6,29 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task7.V9.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetMassFunction()
+        public void TestMethod1()
         {
             DataService ds = new DataService();
-
             int startValue = -5;
             int stopValue = 5;
-
-            int len = stopValue - startValue + 1;
-
-            double[] valueWaitArray;
-            valueWaitArray = new double[len];
-
-            valueWaitArray[0] = 70.14;
-            valueWaitArray[1] = 55.21;
-            valueWaitArray[2] = 41.05;
-            valueWaitArray[3] = 27.96;
-            valueWaitArray[4] = 15.48;
-            valueWaitArray[5] = 1.00;
-            valueWaitArray[6] = -13.06;
-            valueWaitArray[7] = -28.16;
-            valueWaitArray[8] = -42.96;
-            valueWaitArray[9] = -56.77;
-            valueWaitArray[10] = -69.83;
-
-            double[] res;
-            res = ds.GetMassFunction(startValue, stopValue);
-            CollectionAssert.AreEqual(valueWaitArray, res);
+            int len = (stopValue - startValue) + 1;
+            double[] array;
+            array = new double[len];
+            array[0] = -27.22;
+            array[1] = -22.25;
+            array[2] = -16.66;
+            array[3] = -11.04;
+            array[4] = -6.13;
+            array[5] = -3.00;
+            array[6] = 4.84;
+            array[7] = 8.86;
+            array[8] = 14.43;
+            array[9] = 20.18;
+            array[10] = 25.24;
+            double[] array2;
+            array2 = new double[len];
+            array2 = ds.GetMassFunction(startValue, stopValue);
+            CollectionAssert.AreEqual(array, array2);
         }
     }
 }
