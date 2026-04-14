@@ -6,15 +6,16 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task5.V29.Lib
     {
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
-            double sumSeries = 0;
+            double res = 0;
             for (int i = startValue1; i <= stopValue1; i++)
             {
-                for (int k = startValue2; k <= stopValue2; k++)
+                for (double j = startValue2; j <= stopValue2; j++)
                 {
-                    sumSeries = sumSeries + (Math.Pow(x, 2) / (3 * i + k));
+                    res += ((x * 1.0) / j) + Math.Sin(x);
                 }
             }
-            return Math.Round(sumSeries, 3);
+
+            return Math.Round(res, 3);
         }
     }
 }
