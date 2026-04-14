@@ -6,24 +6,19 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task4.V13.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double sum = 0;
-            for (int x = startValue; x <= stopValue; x++)
+            double res = 1;
+            for (int i = startValue; i <= stopValue; i++)
             {
-                if (x == 0)
+                if (i == 0)
                 {
-                    continue;
+                    break;
                 }
-                
-                double y = (Math.Sin(x) / x) + 1.5;
-                
-                if (y < 0)
+                else
                 {
-                    break; 
+                    res = res * (Math.Sin(i) / Math.Cos(i));
                 }
-                
-                sum += y;
             }
-            return Math.Round(sum, 3);
+            return Math.Round(res, 3);
         }
     }
 }

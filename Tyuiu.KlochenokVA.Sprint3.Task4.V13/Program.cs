@@ -26,17 +26,15 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task4.V13
             Console.WriteLine("**************************************************************************");
 
             int startValue = -5;
+            Console.WriteLine(startValue);
             int stopValue = 5;
+            Console.WriteLine(stopValue);
+            double res = ds.Calculate(startValue, stopValue);
 
-            Console.WriteLine("Старт шага = " + startValue);
-            Console.WriteLine("Конец шага = " + stopValue);
-
-            Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
-            Console.WriteLine("**************************************************************************");
-
-            Console.WriteLine("Сумма ряда = " + ds.Calculate(startValue, stopValue));
-
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine(" Полученное значение = " + res);
             Console.ReadKey();
         }
     }
