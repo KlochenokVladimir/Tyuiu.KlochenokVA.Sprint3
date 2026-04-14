@@ -26,10 +26,7 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task2.V22
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Переменная x = " + value);
-            Console.WriteLine("Старт шага = " + startValue);
-            Console.WriteLine("Конец шага = " + stopValue);
-            Console.WriteLine("Сумма ряда = " + ds.GetMultiplySeries(value, startValue, stopValue));
+            Console.WriteLine("Сумма рада = " + ds.GetMultiplySeries(value, startValue, stopValue));
 
             Console.ReadKey();
         }
