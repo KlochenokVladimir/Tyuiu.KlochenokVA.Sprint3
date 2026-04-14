@@ -1,4 +1,1 @@
-[assembly: Parallelize(Scope = ExecutionScope.MethodLevel)]
-
-dotnet restore
-dotnet build
+﻿[assembly: Parallelize(Scope = ExecutionScope.MethodLevel)]

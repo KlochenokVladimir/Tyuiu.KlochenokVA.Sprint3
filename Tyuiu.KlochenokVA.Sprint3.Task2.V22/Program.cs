@@ -1,46 +1,33 @@
-using Tyuiu.KlochenokVA.Sprint3.Task2.V22.Lib;
-
+п»їusing Tyuiu.KlochenokVA.Sprint3.Task2.V22.Lib;
 namespace Tyuiu.KlochenokVA.Sprint3.Task2.V22
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
-
-            Console.Title = "Спринт #3 | Выполнил: Клоченок В. А. | ИСПб-25-1";
-            Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* Спринт #3                                                              *");
-            Console.WriteLine("* Тема: Оператор цикла do-while                                         *");
-            Console.WriteLine("* Задание #2                                                             *");
-            Console.WriteLine("* Вариант #22                                                            *");
-            Console.WriteLine("* Выполнил: Клоченок Владимир Алексеевич | ИСПб-25-1                     *");
-            Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* УСЛОВИЕ:                                                               *");
-            Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет       *");
-            Console.WriteLine("* произведение ряда по формуле *");
-
-
-            Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
-            Console.WriteLine("**************************************************************************");
-
-            int value = 5;
-            int startValue = 1;
-            int stopValue = 7;
-
-            Console.WriteLine("Переменная X = " + value);
-            Console.WriteLine("Старт шага = " + startValue);
-            Console.WriteLine("Конец шага = " + stopValue);
-
-            Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
-            Console.WriteLine("**************************************************************************");
-
-            Console.WriteLine("Сумма рада = " + ds.GetMultiplySeries(value, startValue, stopValue));
-
-            Console.ReadKey();
+            int a;
+            int st, en;
+            Console.WriteLine("Р’РІРµРґРёС‚Рµ a,start,end");
+            a = Convert.ToInt32(Console.ReadLine());
+            st = Convert.ToInt32(Console.ReadLine());
+            en = Convert.ToInt32(Console.ReadLine());
+            Console.Title = "РЎРїСЂРёРЅС‚ #3 | Р’С‹РїРѕР»РЅРёР»: РљР»РѕС‡РµРЅРѕРє Р’.Рђ. | РРЎРџР±-25-1";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЎРїСЂРёРЅС‚ #3                                                               *");
+            Console.WriteLine("* Р—Р°РґР°РЅРёРµ #2                                                              *");
+            Console.WriteLine("* Р’Р°СЂРёР°РЅС‚ #22                                                             *");
+            Console.WriteLine("* Р’С‹РїРѕР»РЅРёР»: РљР»РѕС‡РµРЅРѕРє Р’Р»Р°РґРёРјРёСЂ РђР»РµРєСЃРµРµРІРёС‡  | РРЎРџР±-25-1                      *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РРЎРҐРћР”РќР«Р• Р”РђРќРќР«Р•:                                                        *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* a = " + a);
+            Console.WriteLine("* st = " + st);
+            Console.WriteLine("* en = " + en);
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Р Р•Р—РЈР›Р¬РўРђРў:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine(ds.GetMultiplySeries(a, st, en));
         }
     }
 }
