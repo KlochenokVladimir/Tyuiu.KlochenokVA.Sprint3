@@ -5,14 +5,12 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task2.V22.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void GetMultiplySeriesValid()
+        public void TestMethod1()
         {
             DataService ds = new DataService();
-            int x = 5;
-            int st = 1;
-            int en = 7;
+            int value = 5, startValue = 1, stopValue = 7;
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
             double wait = 0.125;
-            double res = ds.GetMultiplySeries(x, st, en);
             Assert.AreEqual(wait, res);
         }
     }
