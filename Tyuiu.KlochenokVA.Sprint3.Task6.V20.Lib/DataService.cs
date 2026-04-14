@@ -6,18 +6,22 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task6.V20.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int sum = 0;
-            for (int i = startValue; i <= stopValue; i++)
+            int x;
+            int count = 0;
+            for (x = startValue; x <= stopValue; x++)
             {
-                for (int j = 1; j < i; j++) // j < i (не включаем само число)
+                for (int d = 1; d <= x; d++)
                 {
-                    if (i % j == 0)
+                    if (x % d == 0)
                     {
-                        sum += j;
+                        if (d < 12)
+                        {
+                            count++;
+                        }
                     }
                 }
             }
-            return sum;
+            return count;
         }
     }
 }

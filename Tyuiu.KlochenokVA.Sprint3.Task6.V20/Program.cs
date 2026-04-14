@@ -17,26 +17,26 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task6.V20
             Console.WriteLine("* Выполнил: Клоченок Владимир Алексеевич | ИСПб-25-1                     *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
-            Console.WriteLine("* Напишите программу, которая ищет среди целых чисел, принадлежащих     *");
-            Console.WriteLine("* числовому отрезку [10, 20] сумму всех делителей                        *");
+            Console.WriteLine("* Написать программу, которая ищет среди целых чисел, принадлежащих      *");
+            Console.WriteLine("* числовому отрезку [20, 32] количество всех делителей меньше 12         *");
 
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("**************************************************************************");
 
-            int startValue = 10;
-            int stopValue = 20;
+            int startValue = 20;
+            int stopValue = 32;
 
             Console.WriteLine("Начало отрезка = " + startValue);
             Console.WriteLine("Конец отрезка = " + stopValue);
 
-            Console.WriteLine("**************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
-            Console.WriteLine("**************************************************************************");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма всех делителей = " + ds.GetSumTheDivisors(startValue, stopValue));
-
+            Console.WriteLine("Сумма ряда = " + ds.GetSumTheDivisors(startValue, stopValue));
             Console.ReadKey();
+
         }
     }
 }

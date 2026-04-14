@@ -10,13 +10,10 @@ namespace Tyuiu.KlochenokVA.Sprint3.Task6.V20.Test
         public void ValidGetSumTheDivisors()
         {
             DataService ds = new DataService();
-
-            int startValue = 10;
-            int stopValue = 20;
-
+            int startValue = 20;
+            int stopValue = 32;
             int res = ds.GetSumTheDivisors(startValue, stopValue);
-            int wait = 284;
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(41, res);
         }
     }
 }
